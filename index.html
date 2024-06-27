@@ -1,18 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Flappy Bird </title>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Flappy Bird</title>
+    <link rel="icon" href="pngegg.png">
 </head>
 
-<body>
-    <div id="container">
-        <h1>Flappy bird</h1>
-    </div>
+<body oncontextmenu="return false;">
+
+    <header>
+        <h1>Flappy Bird</h1>
+        <div class="score-container">
+            <div id="bestScore"></div>
+            <div id="currentScore"></div>
+        </div>
+    </header>
+    <canvas id="canvas" width="431" height="768"></canvas>
 </body>
+<script src="plsflap.js"></script>
 
 </html>
